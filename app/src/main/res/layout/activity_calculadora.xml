@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/calculadora_padding"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0d5be5"
+        android:textSize="@dimen/calculadora_title_size"
+        android:text="@string/calculadora_title_txt"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_margin="@dimen/calculadora_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/calculadora_edit_n1"
+        />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_margin="@dimen/calculadora_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/calculadora_edit_n2"
+        />
+
+    <LinearLayout
+
+        android:layout_margin="@dimen/calculadora_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_sumar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculadora_btn_sumar"/>
+
+        <Button
+            android:id="@+id/btn_restar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculadora_btn_restar"/>
+
+        <Button
+            android:id="@+id/btn_mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculadora_btn_mul"/>
+
+        <Button
+            android:id="@+id/btn_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculadora_btn_div"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/rta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/calculadora_resultado"
+        android:textSize="70sp"
+        />
+
+</LinearLayout>

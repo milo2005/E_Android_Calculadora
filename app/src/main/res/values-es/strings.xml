@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="calculadora_title_txt">Calculadora</string>
+    <string name="calculadora_edit_n1">Numero 1</string>
+    <string name="calculadora_edit_n2">Numero 2</string>
+    <string name="calculadora_btn_sumar">Sumar</string>
+    <string name="calculadora_btn_restar">Restar</string>
+    <string name="calculadora_btn_mul">Mul</string>
+    <string name="calculadora_btn_div">Div</string>
+    <string name="calculadora_resultado">Resultado</string>
+    <string name="calculadora_infinito">Infinito</string>
+
+</resources>
